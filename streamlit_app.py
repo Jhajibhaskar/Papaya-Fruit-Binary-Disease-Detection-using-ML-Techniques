@@ -35,7 +35,7 @@ def preprocess_image(img):
     return img_resize.flatten().reshape(1, -1)
 
 # Load the data and model
-datadir = 'C:\\Users\\ujjwa\\Downloads\\Papaya Fruit Diseases Detection Using ML Technique\\DATA SET'
+datadir = './DATA SET'
 flat_data_arr = []  # input array
 target_arr = []  # output array
 
