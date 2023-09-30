@@ -7,6 +7,23 @@ This project aims to classify papaya fruits as healthy or diseased through binar
 ## Dataset
 The dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images for each category.
 
+## Implementation Overview
+### 1. Data Curation:
+➢Collected a dataset consisting of 30 images for both healthy and diseased papaya fruits.
+### 2. Data Augmentation:
+➢Augmented the dataset by applying flip and rotation operations, resulting in a total of 210 images for each category.
+### 3. Image Segmentation:
+➢Employed eight segmentation techniques to preprocess the images for feature extraction and analysis:
+1.Global Thresholding
+2.Otsu's Thresholding
+3.Adaptive Mean Thresholding
+4.Adaptive Gaussian Thresholding
+5.Canny Edge Detection
+6.Sobel Edge Detection
+7.K-means Clustering
+8.Fuzzy C-means Clustering
+### 4. Model Training:
+
 
 
 
