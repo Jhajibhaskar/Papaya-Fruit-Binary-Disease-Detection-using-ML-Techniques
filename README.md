@@ -1,7 +1,7 @@
 # Papaya-Fruit-Disease-Detection-using-ML-Techniques
 This project aims to classify papaya fruits as healthy or diseased through binary classification. The primary objective is to assist farmers in identifying and managing diseased fruits to promote better crop health and yield.
 
-## Proposed Methodology
+# Proposed Methodology
 ![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Disease-Detection-using-ML-Techniques/assets/84240276/4fb9297a-99f2-4f2a-a93b-71b5b6832318)
 
 ## Dataset
