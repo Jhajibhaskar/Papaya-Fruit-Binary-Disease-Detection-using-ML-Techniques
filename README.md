@@ -6,7 +6,7 @@ This project aims to classify papaya fruits as healthy or diseased through binar
 
 
 ## Dataset
-Initially the dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images for each category.
+Initially the dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images(30 originals + 3 flips + 3 rotations for each original) for each category.
 
 ## Implementation Overview
 ### 1. Data Curation:
@@ -33,14 +33,15 @@ Initially the dataset comprises 30 images of healthy papaya fruits and 30 images
 6. Ensemble Classifier (Soft Voting)<br>
 7. Random Forest<br>
 ### 5. Model Evaluation:
-➢Model evaluation employed k-fold cross-validation, analyzing each segmentation technique paired with every classifier to measure accuracy and identify optimal disease detection strategies.
+➢Model evaluation employed k-fold cross-validation, analyzing each segmentation technique paired with every classifier to measure accuracy and identify optimal disease detection strategies.<br>
+➢The model's robustness & performance was verified by testing it with Diseased and Healthy images after applying each classifier within a segmentation techniques.
 ### 6. Model Selection:
 ➢Based on the evaluation results identified K-means segmentation combined with Random Forest as the most accurate model.
 ### 7. Deployment:
 ➢Hosted the trained model on the web using Streamlit for easy access and to interact the users with the trained model.<br>
 ➢Explore the deployed model interface here: https://jhajibhaskar1.streamlit.app/
 ## Results
-Accuracy table showing the performance of each classifier with every segmentation technique, with a special focus on the highest performing combination.
+Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination.
 #### Accuracy table
 ![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Disease-Detection-using-ML-Techniques/assets/84240276/5bcd9733-d7b7-4b43-900d-20eb5b4c12e2)
 
