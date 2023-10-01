@@ -6,7 +6,7 @@ This project aims to classify papaya fruits as healthy or diseased through binar
 
 
 ## Dataset
-The dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images for each category.
+Initially the dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images for each category.
 
 ## Implementation Overview
 ### 1. Data Curation:
