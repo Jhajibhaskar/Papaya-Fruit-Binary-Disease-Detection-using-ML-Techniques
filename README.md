@@ -43,7 +43,8 @@ Initially the dataset comprises 30 images of healthy papaya fruits and 30 images
 ## Results
 Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination.
 #### Accuracy table
-![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Disease-Detection-using-ML-Techniques/assets/84240276/5bcd9733-d7b7-4b43-900d-20eb5b4c12e2)
+![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Binary-Disease-Detection-using-ML-Techniques/assets/84240276/4147caa5-983e-4232-8bf3-c21e16dbee21)
+
 
 
 
