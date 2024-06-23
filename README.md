@@ -36,7 +36,7 @@ Initially the dataset comprises 30 images of healthy papaya fruits and 30 images
 ➢Model evaluation employed k-fold cross-validation, analyzing each segmentation technique paired with every classifier to measure accuracy and identify optimal disease detection strategies.<br>
 ➢The model's robustness & performance was verified by testing it with Diseased and Healthy images after applying each classifier within a segmentation techniques.
 ### 6. Model Selection:
-➢Based on the evaluation results identified K-means segmentation combined with Random Forest as the most accurate model.
+➢Based on the evaluation results identified Fuzzy C-means segmentation combined with Random Forest as the most accurate model.
 ### 7. Deployment:
 ➢Hosted the trained model on the web using Streamlit for easy access and to interact the users with the trained model.<br>
 ➢Explore the deployed model interface here: https://jhajibhaskar1.streamlit.app/
