@@ -38,10 +38,10 @@ Initially the dataset comprises 500 images of healthy papaya fruits and 500 imag
 ### 6. Model Selection:
 ➢Based on the evaluation results identified Fuzzy C-means segmentation combined with Random Forest as the most accurate model.
 ### 7. Deployment:
-➢Hosted the trained model on the web using Streamlit for easy access and to interact the users with the trained model.<br>
+➢Hosted the Fuzzy with RF model on the web using Streamlit for easy access and to interact the users with the model.<br>
 ➢Explore the deployed model interface here: https://jhajibhaskar0.streamlit.app/
 ## Results
-Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination.
+Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination(Fuzzy C-means with RF).
 #### Accuracy table
 ![image](https://github.com/Jhajibhaskar/Papaya-Fruit-Binary-Disease-Detection-using-ML-Techniques/assets/84240276/4147caa5-983e-4232-8bf3-c21e16dbee21)
 
