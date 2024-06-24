@@ -16,7 +16,7 @@ def preprocess_image(img):
     return img_resized.flatten().reshape(1, -1)
 
 # Load the trained RandomForestClassifier model
-model = joblib.load('model.h5')
+model = joblib.load('./model.h5')
 
 # Streamlit App
 st.title('Papaya Fruit Binary Disease Detection using ML Techniques')
