@@ -6,13 +6,13 @@ This project aims to classify papaya fruits as healthy or diseased through binar
 
 
 ## Dataset
-Initially the dataset comprises 30 images of healthy papaya fruits and 30 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 210 images(30 originals + 3 flips + 3 rotations for each original) for each category.
+Initially the dataset comprises 500 images of healthy papaya fruits and 500 images of diseased papaya fruits. Each image was resized to 100x100 pixels. However, due to the limited dataset, data augmentation techniques were applied to diversify the dataset. This augmentation involved flipping (3 times) and rotation (3 times) for each original image, resulting in a total of 3500 images(500 originals + 3 flips + 3 rotations for each original) for each category.
 
 ## Implementation Overview
 ### 1. Data Curation:
-➢Collected a dataset consisting of 30 images for both healthy and diseased papaya fruits.
+➢Collected a dataset consisting of 500 images for each healthy and diseased papaya fruits.
 ### 2. Data Augmentation:
-➢Augmented the dataset by applying flip and rotation operations, resulting in a total of 210 images for each category.
+➢Augmented the dataset by applying flip and rotation operations, resulting in a total of 3500 images for each category.
 ### 3. Image Segmentation:
 ➢Employed eight segmentation techniques to preprocess the images for feature extraction and analysis:
 1. Global Thresholding<br>
@@ -39,7 +39,7 @@ Initially the dataset comprises 30 images of healthy papaya fruits and 30 images
 ➢Based on the evaluation results identified Fuzzy C-means segmentation combined with Random Forest as the most accurate model.
 ### 7. Deployment:
 ➢Hosted the trained model on the web using Streamlit for easy access and to interact the users with the trained model.<br>
-➢Explore the deployed model interface here: https://jhajibhaskar1.streamlit.app/
+➢Explore the deployed model interface here: https://jhajibhaskar0.streamlit.app/
 ## Results
 Accuracy table showing the performance of each classifier with each segmentation technique, with a special focus on the highest performing combination.
 #### Accuracy table
