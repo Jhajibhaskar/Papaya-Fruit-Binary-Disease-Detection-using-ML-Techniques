@@ -6,6 +6,23 @@ from skimage.transform import resize
 from skimage.io import imread
 import joblib
 
+st.image("https://iili.io/dj5iBHB.jpg", width=700)
+# Add a small caption below the image
+st.markdown(
+    """
+    <style>
+    .caption {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        margin-top: 10px;
+    }
+    </style>
+    <div class="caption">The Team Behind This Project with our inspiring guide</div>
+    """,
+    unsafe_allow_html=True
+)
+
 # Define the categories
 Categories = ['Diseased', 'Healthy']
 
@@ -19,7 +36,29 @@ def preprocess_image(img):
 model = joblib.load('./model.h5')
 
 # Streamlit App
-st.title('Papaya Fruit Binary Disease Detection using ML Techniques')
+st.markdown(
+    """
+    <style>
+    .title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .center-button {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        margin-top: 20px;
+    }
+    </style>
+    <div class="title">Papaya Fruit Binary Disease Detection using Machine Learning Techniques</div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.write("This app can predict whether the papaya fruit in the image is Diseased or Healthy.")
 
@@ -40,3 +79,13 @@ if uploaded_file is not None:
     predicted_class = Categories[prediction[0]]
 
     st.write("Predicted Class: ", predicted_class, "Fruit")
+
+# Footer
+st.markdown(
+    """
+    <div class="footer">
+        Developed by <a href="https://www.linkedin.com/in/jhajibhaskar/" target="_blank">CS20B1060</a> , <a href="https://www.linkedin.com/in/abhishektirkey/" target="_blank">CS20B1002</a> , <a href="https://www.linkedin.com/in/vivek140902/" target="_blank">CS20B1065</a>, Empowering agricultural advancements with deep learning!
+    </div>
+    """,
+    unsafe_allow_html=True
+)
