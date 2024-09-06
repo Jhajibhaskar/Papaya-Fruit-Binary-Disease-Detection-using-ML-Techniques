@@ -84,7 +84,7 @@ if uploaded_file is not None:
 st.markdown(
     """
     <div class="footer">
-        Developed by <a href="https://www.linkedin.com/in/jhajibhaskar/" target="_blank">CS20B1060</a> , <a href="https://www.linkedin.com/in/abhishektirkey/" target="_blank">CS20B1002</a> , <a href="https://www.linkedin.com/in/vivek140902/" target="_blank">CS20B1065</a>, Empowering agricultural advancements with deep learning!
+        Developed by <a href="https://www.linkedin.com/in/jhajibhaskar/" target="_blank">CS20B1060</a> , <a href="https://www.linkedin.com/in/abhishektirkey/" target="_blank">CS20B1002</a> , <a href="https://www.linkedin.com/in/vivek140902/" target="_blank">CS20B1065</a>, Empowering agricultural advancements with machine learning!
     </div>
     """,
     unsafe_allow_html=True
